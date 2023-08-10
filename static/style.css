@@ -1,0 +1,31 @@
+body {
+  background-color: red;
+  color: white;
+}
+
+/* Style for links */
+a {
+        color: white; /* Set the link color to white */
+        font-weight: bold; /* Set the font weight to bold */
+        text-decoration: none; /* Remove underline decoration */
+}
+
+.spacer {
+        margin: 0 30px;
+    }
+
+/* Add extra line spacing between rows */
+.gap-2 > .col {
+  margin-bottom: 2rem; /* Adjust the value to control the spacing */
+}
+
+/* Prevent line breaks within messages */
+.message {
+  white-space: pre-line;
+  font-weight: bold;
+}
+
+/* Display message content as bold */
+.message strong {
+  font-weight: bold;
+}
