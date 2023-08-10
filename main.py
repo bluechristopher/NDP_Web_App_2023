@@ -66,6 +66,4 @@ def message():
 
     return render_template('message.html', posts=posts)
 
-
-
 app.run(host='0.0.0.0', port=81)
